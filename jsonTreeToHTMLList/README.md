@@ -23,6 +23,10 @@ En este problema vas a crear una función que reciba como parametro un arbol en 
 >   - `"children"`: Un array con estructuras de nodos que pueden tener las propiedades aqui listadas (`"tag"`, `"text"` o incluso más `"children"`)
 > - `"li"` nunca tendrá hijos `"li"`, y `"ul"`/`"ol"` nunca tendrá hijos `"ul"`/`"ol"`
 > - La raíz de la estructura siempre será un `"ul"`/`"ol"`.
+>
+> **Output**
+>
+> La salida de la función debe respetar siempre los niveles de identacion por cada nivel, presta atencion a los ejemplos abajo para que veas como cada hijo, incluso los `"text"` dentro de los `"li"` respetan la identación.
 
 ---
 
